@@ -7,7 +7,7 @@ public class StringSorter {
         System.out.println("Sorted Strings: " + strings);
 
 
-        // this runs too
+        // this runs
     }
 }
 
