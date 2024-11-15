@@ -6,7 +6,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Get and sort integers
         System.out.print("Enter integers separated by spaces: ");
         String[] intInput = scanner.nextLine().split(" ");
         List<Integer> integers = new ArrayList<>();
@@ -15,7 +14,6 @@ public class Main {
         }
         IntegerSorter.sortIntegers(integers);
 
-        // Get and sort strings
         System.out.print("Enter strings separated by spaces: ");
         String[] strInput = scanner.nextLine().split(" ");
         List<String> strings = new ArrayList<>();
